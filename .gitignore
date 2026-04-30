@@ -24,10 +24,4 @@ Thumbs.db
 *.pdf
 ~$*
 
-# Generated visual outputs
-visualizations/*.png
-visualizations/*.csv
-visualizations/*.txt
 
-# Explicitly exclude non-deployment report generator
-03_generate_report.py
