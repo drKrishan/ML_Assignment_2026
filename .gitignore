@@ -1,0 +1,33 @@
+# Python cache and virtual environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Build and test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Generated reports and documents (exclude from git)
+*.doc
+*.docx
+*.pdf
+~$*
+
+# Generated visual outputs
+visualizations/*.png
+visualizations/*.csv
+visualizations/*.txt
+
+# Explicitly exclude non-deployment report generator
+03_generate_report.py
